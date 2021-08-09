@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.071427">
+<testcase classname="Verifying facebook Login details" name="To validate find an account using email address when user forgets password" time="0.061782">
+<system-out><![CDATA[Given As a user must launch facebook application............................passed
+When As a user must click on forgot password link...........................passed
+Given User should enter valid email id for finding the linked account.......passed
+And User should click on search button......................................passed
+Then User must validate the message.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying facebook Login details" name="To validate find an account using Username when user forgets password" time="0.009645">
+<system-out><![CDATA[Given As a user must launch facebook application............................passed
+When As a user must click on forgot password link...........................passed
+Given User should enter valid Username for finding the linked account.......passed
+And User should click on search button......................................passed
+Then User must validate the message.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
